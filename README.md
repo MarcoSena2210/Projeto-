@@ -34,19 +34,19 @@ Git     : https://github.com/MarcoSena2210/
 - [Criando e Utilizando a Sua Carteira de Criptomoedas](https://github.com/MarcoSena2210projeto-carteira-de-criptomoedas)
 
 ## Tópicos 
-- [Pré-requisitos](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas/#pr%C3%A9-requisitos)
+- [Pré-requisitos](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=%5BConclus%C3%A3o%5D-,Pr%C3%A9%2Drequisitos,-Para%20melhor%20compreens%C3%A3o)
 
-- [Descrição do Projeto](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas/pr%C3%A9-Descriçãodoprojeto)
+- [Descrição do Projeto](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=l%C3%B3gica%20de%20programa%C3%A7%C3%A3o.-,Descri%C3%A7%C3%A3o%20do%20projeto,-Esse%20projeto%20tem)
 
-- [Objetivo](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas/pr%C3%A9-Descriçãodoprojeto)
+- [Objetivo](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=aprendizafgem%20dessa%20tecnologia.-,Objetivos,-%3A)
 
-- [Preparação do Ambiente](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas/pr%C3%A9-PreparaçãodoAmbiente)
+- [Preparação do Ambiente](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=as%20suas%20atualiza%C3%A7%C3%B5es.-,Prepara%C3%A7%C3%A3o%20do%20ambiente,-Baixar%20e%20Instalar)
 
-- [Criando o projeto]
+- [Criando o projeto](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=instala%C3%A7%C3%A3o%20do%20nodejs.-,Criando%20o%20projeto,-%23%23%23%201%2DPara%20criar)
 
-- [Gerador de carteiras de bitcoin]
+- [Gerador de carteiras de bitcoin](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=D%3A%5CBlockchain%5Cbtcwalett%3E%20%0A%60%60%60-,Gerador%20de%20carteiras%20de%20bitcoin,-%23%23%23%203%2DPara%20melhor)
 
-- [Enviando e recebendo transações]
+- [Enviando e recebendo transações](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=electrum.org/%23home-,Enviando%20e%20recebendo%20transa%C3%A7%C3%B5es,-Aqui%20acabamos%20de)
 
 - [Conclusão]
 
@@ -294,10 +294,10 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
   ```
 
   ### 9º - Agora é só copiar o novo endereço e colocar no Elctrum.
-  ## ⚠ Dica: Copiei o valor e informe no campo valor e clicar no botão pagar.
+  ## ⚠ Dica: Copie o valor e informe no campo quantidade e confirme no botão pagar.
   ![Electrum](img/img25_tela_pagar.png)
 
-  #### Pagamento ennviado e projeto concluído.
+  #### Pagamento enviado e projeto concluído.
   ![Electrum](img/img26_pagamento_enviado.png)
 
   #### Mas ainda não foi confirmada
@@ -319,7 +319,7 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
   ![Electrum](img/img30_detalhe_hash_entarada_saida.png)
 
 
-CONCLUSÂO:
+# CONCLUSÃO
 
   - ✅  a) Construir um gerador de carteiras de bitcoin
         Criado o script createWallet.js   
