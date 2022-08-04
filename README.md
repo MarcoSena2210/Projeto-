@@ -48,7 +48,7 @@ Git     : https://github.com/MarcoSena2210/
 
 - [Enviando e recebendo transações](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#:~:text=electrum.org/%23home-,Enviando%20e%20recebendo%20transa%C3%A7%C3%B5es,-Aqui%20acabamos%20de)
 
-- [Conclusão](https://github.com/MarcoSena2210/projeto-carteira-de-criptomoedas#readme:~:text=j%C3%A1%20foi%20validada.-,Conclus%C3%A3o,-%E2%9C%85)
+- [Conclusão](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)
 
 ## Pré-requisitos
 Para melhor compreensão e execução do projeto são necessários conhecimentos básicos (fundamentos) em:
@@ -320,6 +320,7 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizagem des
 
 
 # Conclusão
+
   - ✅  a) Construído um gerador de carteiras de bitcoin
         Foi criado o script createWallet.js e executado com sucesso.    
 
