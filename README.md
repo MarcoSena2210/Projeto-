@@ -51,30 +51,29 @@ Git     : https://github.com/MarcoSena2210/
 - [Conclusão]
 
 ## Pré-requisitos
-Para melhor compreensão e execução do projeto é necessário conhecimentos básicos (fundamentos) em:
+Para melhor compreensão e execução do projeto são necessários conhecimentos básicos (fundamentos) em:
 javascript,
 lógica de programação. 
 
 
 ## Descrição do projeto
+Esse projeto tem como objetivo desenvolver os conhecimentos iniciais no curso de BlockChain promovido pela Dio Innovation One no segundo semestre de 2022.
 
-Esse projeto tem como objetivo desenvolver os conhecimentos iniciais no curso de [BlockChain](https://github.com/MarcoSena2210/???) promovido pela Dio Innovation One no segundo semestre de 2022.
-
-Descrever de forma simples os passos para atingir o objetivo de aprendizafgem dessa tecnologia. 
+Descrever de forma simples os passos para atingir o objetivo de aprendizagem dessa tecnologia e possibilitar a troca de conhecimento.
 
 ## Objetivos:
   a) Construir um gerador de carteiras de bitcoin
 
   b) Importar para dentro de um software gerenciador de carteiras
 
-  c) Realizar transações de envio e recebimentode de Bitcoin 
+  c) Realizar transações de envio e recebimento de de Bitcoin 
 
 
-⚠ **Observação: Todas as imagens de exemplo abaixo (Visualizações) são apenas para referencias e podem sofrer mudanças as suas atualizações.
+⚠ **Observação: Todas as imagens de exemplo abaixo (Visualizações) são apenas para referências e podem sofrer mudanças em suas atualizações.
 
 
 ## Preparação do ambiente
-  * Baixar e Instalar o nodesjs
+  * Baixar e Instalar o nodejs
 
     [nodejs](https://nodejs.org/en/download/)
     Um framework de execução Javascript linguagem padrão de manipulação de páginas HTML.
@@ -96,8 +95,7 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
       Foi criado a pasta "blockchain\btcwalett", entretanto você pode colocar qualquer nome desejado. 
 
       2-Abra um terminal dentro do vscode.
-      Para isso, basta clicar na barra subperior em terminal.Será aberto na parte inferior da tela um prompt de comando.
-      Semelhante a imagem abaixo:        
+      Para isso, basta clicar na barra superior em terminal. Será aberto na parte inferior da tela um prompt de comando, semelhante a imagem abaixo:        
 
     ```
     OUTPUT
@@ -110,8 +108,9 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
     ```
 
     3-Verificar se o nodejs está instalado:
-    No prompt do terminal digite node -v, esse comando irá mostrar a versão instalada do nodejs.
-    Se mostrar a versão, foi instalado com sucesso. 
+    No prompt do terminal digite node -v 
+    Esse comando irá mostrar a versão instalada do nodejs.
+    Se for visualizado o número da versão, a instalação foi efetuada com sucesso. 
 
     PS D:\Blockchain\btcwalett>`node -v`
     ``` 
@@ -120,9 +119,9 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
     ```
 
     4-Verificar se o npm (gerenciador de package) está instalado:
-    No prompt do terminal digite nmp -v, esse comando irá mostrar a versão instalada do npm.
-    Se mostrar a versão, foi instalado com sucesso. 
-
+    No prompt do terminal digite nmp -v
+    Esse comando irá mostrar a versão instalada do npm.
+    Se for visualizado o número da versão, a instalação foi efetuada com sucesso. 
 
     PS D:\Blockchain\btcwalett> `npm -v`
 
@@ -139,7 +138,7 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
 
 ## Criando o projeto 
 
-    ### 1-Para criar o projeto basta digitar `npm init -y` na pasta desejada.Dentro do terminal do Visual Code 
+    ### 1-Para criar o projeto basta digitar `npm init -y` na pasta desejada. Dentro do terminal do Visual Code 
     PS D:\Blockchain\btcwalett>`npm init -y`
     ```
     OUTPUT
@@ -158,9 +157,10 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
     }
     ```
 
-## 2- Criar algumas dependências(packages) necessárias
+## 2- Criar as dependências(packages) necessárias
 
     PS D:\Blockchain\btcwalett>`npm install bip39 bip32@2.0.6 bitcoinjs-lib --save`
+   
     ```
     OUTPUT 
     npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
@@ -269,7 +269,7 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
     #### Clique na aba endereço. Podemos observar que é o mesmo criado anteriormente.
     #### Em histórico podemos verificar se a transação já foi concluída.
 
-  ## ⚠ Dica: Só podemos enviar após está concluída. A tela ficará assim:
+  ## ⚠ Dica: Só podemos enviar  após está concluída. A tela ficará assim:
   ![Electrum](img/img22_tela_endereco.png)
 
   ![Electrum](img/img23_tela_concluída.png)
@@ -279,7 +279,8 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
   ![Electrum](img/img25_resultado_pagar.png)
 
   ### 8º -  Agora vamos enviar para outro endereço.
-  #### Para efetuar essa operação iremos criar um novo endereço,executando o nosso script createwallet. Depois entrar no Electrum,selecionar a moeda desejada e clicar na aba enviar e informar o endereço para quem desejamos enviar.
+  #### Para efetuar essa operação deve-se criar um novo endereço, executando o script createWallet.js
+  #### Depois entre no Electrum, selecione a moeda desejada, informe o endereço para quem deseja enviar e clique na aba enviar.  
 
   ### Antes vamos rodar nosso programa para gerar o novo endereço:
   PS D:\Blockchain\btcwalett\src> `node .\createWallet.js`
@@ -293,44 +294,43 @@ Descrever de forma simples os passos para atingir o objetivo de aprendizafgem de
   PS D:\Blockchain\btcwalett\src>  
   ```
 
-  ### 9º - Agora é só copiar o novo endereço e colocar no Elctrum.
-  ## ⚠ Dica: Copie o valor e informe no campo quantidade e confirme no botão pagar.
+  ### 9º - Agora é só copiar o novo endereço e colocar no Electrum.
+  ## ⚠ Dica: Copie o valor, informe no campo quantidade e confirme no botão pagar.
   ![Electrum](img/img25_tela_pagar.png)
 
-  #### Pagamento enviado e projeto concluído.
+  #### Pagamento enviado
   ![Electrum](img/img26_pagamento_enviado.png)
 
-  #### Mas ainda não foi confirmada
+  #### Mas ainda não foi confirmado
   ![Electrum](img/img27_pagamento_concluído.png)
 
   #### Vamos verificar como está lá no BlokChain?
-  #### Podemos observar os 2 hash que foram gerados das 2 transações e o total enviado para o novo endereço.
+  #### Podemos observar os 2 "hash" que foram gerados das 2 transações e o total enviado para o novo endereço.
 
   ![Electrum](img/img27_pagamento_concluído.png)
 
   ![Electrum](img/img28_Olhando_o_block.png)
 
   ![Electrum](img/img28_Olhando_o_block0.png)
-  #### Clicando no hash, será aberto apágina de detalhe.
-  Dica: Na linha Include bkock pode aparecer  o descritivo "Mempool" o que significa que ainda não foi validada.No nosso caso já foi validada.   
-  Fig 29 
-
+  #### Clicando no hash, será aberto a página de detalhe.
+  Dica: Na linha Include block pode aparecer  o descritivo "Mempool" o que significa que ainda não foi validado. Nesse caso já foi validada.   
+  
   ![Electrum](img/img29_detalhe_hash.png)
   ![Electrum](img/img30_detalhe_hash_entarada_saida.png)
 
 
-# CONCLUSÃO
+# Conclusão
+  - ✅  a) Construído um gerador de carteiras de bitcoin
+        Foi criado o script createWallet.js e executado com sucesso.    
 
-  - ✅  a) Construir um gerador de carteiras de bitcoin
-        Criado o script createWallet.js   
+  - ✅  b) Importado para dentro de um software gerenciador de carteiras.
+        Feito a importação da moeda com sucesso
 
-  - ✅  b) Importar para dentro de um software gerenciador de carteiras
-        Feito a importção da moeda com sucesso
+  - ✅ c) Realizadas transações de envio e recebimento de Bitcoin. 
+        Feito as transações com sucesso
 
-  - ✅ c) Realizar transações de envio e recebimentode de Bitcoin 
-        Feito a transações de envio da moeda com sucesso
-
-  Com esse aprendizado, concluímos a nossa primeira experiência de criação de criptomoedas.Fica aqui meus agradecimentos ao professor Cassiano Peres e a toda equipe da Dio.      
+  Com esse aprendizado, concluímos a nossa primeira experiência de criação de criptomoedas.
+  Fica aqui meus agradecimentos ao professor Cassiano Peres e a toda equipe da Dio.      
 
   ______________________________________________
   Este repositório é um fork do [Cassiano Peres](https://github.com/digitalinnovationone/formacao-blockchain-dio.git)
